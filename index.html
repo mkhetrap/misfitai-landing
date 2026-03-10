@@ -814,7 +814,7 @@
     /* ===== MOBILE HERO / DEMO FIXES ===== */
 @media (max-width: 768px) {
   .container {
-    width: calc(100% - 2.5rem);
+    width: calc(100% - 3rem);
     margin: 0 auto;
   }
 
@@ -849,6 +849,15 @@
     margin: 1.25rem 0 0;
     padding: 1.1rem 1rem 1.25rem;
     border-radius: 18px;
+  }
+
+  .hero-demo .outfit-item img {
+    width: 100%;
+    height: 72px !important;
+    object-fit: contain;
+    object-position: center;
+    background: #f7f7f5;
+    padding: 0.35rem;
   }
 
   .demo-date {
@@ -961,7 +970,7 @@
 
 @media (max-width: 480px) {
   .container {
-    width: calc(100% - 2rem);
+    width: calc(100% - 2.5rem);
   }
 
   .hero {
@@ -980,6 +989,12 @@
   .hero-demo {
     padding: 1rem 0.9rem 1.1rem;
     border-radius: 16px;
+  }
+  .hero-demo .outfit-item img {
+    height: 64px !important;
+    object-fit: contain;
+    object-position: center;
+    padding: 0.3rem;
   }
 
   .demo-date {
